@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="FAHIM_BLUE">#ff4a7de2</color>
+    <color name="FAHIM_BLUE_LIGHT">#7097e0</color>
+
+    <color name="FAHIM_GREY">#2d2d2d</color>
+    <color name="FAHIM_GREY_TEXT">#C8C8C8</color>
+    <color name="FAHIM_GREY_DRAW">#8C8C8C</color>
+    <color name="FAHIM_GREY_DRAW_LIGHT">#D2D2D2</color>
+
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#FF000000</color>
+    <color name="TRANSPARENT_BLACK">#7D000000</color>
+    <color name="TRANSPARENT">#00000000</color>
+</resources>

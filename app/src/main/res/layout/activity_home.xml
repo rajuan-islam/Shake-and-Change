@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fahim.shakenchange.HomeActivity"
+    android:background="@color/FAHIM_GREY"
+    android:longClickable="false">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="CREDITS"
+        android:id="@+id/creditButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="@color/FAHIM_BLUE"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="HOW TO?"
+        android:id="@+id/howToButton"
+        android:layout_above="@+id/creditButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="@color/FAHIM_BLUE"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/settingsButton"
+        android:layout_above="@+id/howToButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="@color/FAHIM_BLUE"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Select Wallpaper"
+        android:id="@+id/selectButton"
+        android:layout_above="@+id/settingsButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="@color/FAHIM_BLUE"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/home_pic_new"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/HOME_WELCOME_TEXT"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/FAHIM_GREY_TEXT"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

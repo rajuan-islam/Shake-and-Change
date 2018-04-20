@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fahim.shakenchange.PreviewActivity"
+    android:background="@color/FAHIM_GREY">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/previewScroll">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/previewImage"
+            android:src="@drawable/wallpaper_3"
+            android:adjustViewBounds="true" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preview"
+        android:id="@+id/textView19"
+        android:textColor="@color/WHITE"
+        android:background="@color/TRANSPARENT_BLACK"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Set Wallpaper"
+        android:id="@+id/setButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/TRANSPARENT_BLACK"
+        android:textColor="@color/WHITE"
+        android:textSize="18dp" />
+
+</RelativeLayout>

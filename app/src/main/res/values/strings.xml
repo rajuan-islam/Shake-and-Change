@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Shake \'n Change</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_credit">CreditActivity</string>
+
+    <string name="HOME_WELCOME_TEXT">
+        Welcome to your smart wallpaper changer app. Select your wallpaper once and change it
+        everytime just by shaking your phone!
+    </string>
+
+    <string name="SHAKE_SWITCH_PROMPT">Change wallpaper by shaking phone:</string>
+    <string name="SEEKBAR_PROMPT">Set the threshold value for shaking. (800-4800)</string>
+    <string name="SHAKE_TEST_PROMPT">
+        Shake the phone to test the threshold value set above. When enough shaking is detected
+        the image below turns red. Tap on it to make it blue again.
+    </string>
+
+    <string name="PAGE_1_TEXT">
+        Select an image from the list to set as wallpaper. After tapping you\'ll see a larger preview.
+    </string>
+    <string name="PAGE_2_TEXT">
+        Tap on \'set wallpaper\' button to set the image as phone\'s current wallpaper.
+    </string>
+    <string name="PAGE_3_TEXT">
+        In settings, you can change the threshold value of the shake. You can also test the value here by a demo shaking.
+        \n\nYou can also activate and deactivate wallpaper changing by shake.
+    </string>
+    <string name="PAGE_4_TEXT">
+        Set wallpaper and change settings to your comfort. Then exit the app. Later you won\'t need to open the app
+        again to change wallpaper.
+    </string>
+    <string name="PAGE_5_TEXT">
+        After you\'ve quit the app, anytime you shake your phone, your wallpaper will automatically change to the next
+        one in the list. You\'ll get a notification at that time. Minimum time gap between two subsequent changes is 2 seconds.
+    </string>
+
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_preview">PreviewActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_lol">LolActivity</string>
+    <string name="title_activity_how_to">HowToActivity</string>
+</resources>
